@@ -13,9 +13,9 @@
   <!-- <script src="./src/index.js" type="module">
   </script> -->
 
-  <script type="module">
+  <script type="module">   //将modul.js模块化
     // 几乎这个模块所有的内容，都会用到
-    // 否则，仅使用结构语法{}
+    // 否则，仅使用解构语法{}
     // import  indexModule from './src/index.js';  // 取的是默认导出
     import * as indexModule from './src/index.js';  //导出所有内容
     import { testFn as moduleUniqueFn, test as c, user } from './src/index.js'
