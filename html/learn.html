@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位</title>
+    <style>
+        *{
+            margin:0;
+        }
+.container{
+    border-style: solid;
+    border-color: pink;
+    height:1000px;
+    border-width: 10px;
+   
+    position: relative;
+}
+
+.inline{
+   border-style: solid;
+   border-color: bisque;
+   border-width: 10px;
+    position:relative;
+    background-color:yellow;
+    height: 600px;
+    overflow-y:scroll;
+   
+}
+.sticky{
+    background-color: aquamarine;
+    height:800px;
+    position: relative;
+    
+    font-size: xx-large;
+    top: 10px;
+}
+    .stick{
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        position: sticky;
+        top: 5px;
+    }
+   
+    
+
+
+
+
+    </style>
+    <script type="text/javascript" src="./learn.js"></script>
+</head>
+<body>
+    
+<div class="container">
+<div class="inline"> 
+    <div class="sticky">
+        <div>12354</div>
+        <div>12354</div>
+        
+        <div class="stick"></div>
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

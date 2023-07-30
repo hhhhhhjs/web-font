@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.outer{
+    display:flex;
+    justify-content:center ;
+    position:relative;
+}
+.icon{
+    width:15px;
+    height:30px;
+    cursor: pointer;
+}
+
+
+.hide{
+    background-color: aqua;
+    display: flex;
+    display: none;
+    width:300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:absolute;
+    left: 640px;
+     
+}
+
+
+.ballad{
+    width: calc(100%/3);
+    cursor:pointer;
+}
+
+.electric{
+    width:calc(100%/3);
+    cursor:pointer;
+}
+.bass{
+    width:calc(100%/3);
+    cursor:pointer;
+}
+.shelf-drum{
+    width:calc(100%/3);
+    cursor:pointer;
+}
+.keyboard{
+    width:calc(100%/3);
+    cursor:pointer;
+}
+
+
+
+</style>
+<body>
+<div class="outer">
+<div class="anthentic">请问您需要什么?</div>
+<svg t="1690010123721" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2761" width="200" height="200"><path d="M966.4 323.2c-9.6-9.6-25.6-9.6-35.2 0l-416 416-425.6-416c-9.6-9.6-25.6-9.6-35.2 0-9.6 9.6-9.6 25.6 0 35.2l441.6 432c9.6 9.6 25.6 9.6 35.2 0l435.2-432C976 345.6 976 332.8 966.4 323.2z" p-id="2762"></path></svg>
+</div>
+<div class="hide">
+    <div class="ballad">民谣吉他</div>
+    <div class="electric">电吉他</div>
+    <div class="bass">贝斯</div>
+    <div class="shelf-drum">架子鼓</div>
+    <div class="keyboard">键盘</div>
+</div>
+
+
+
+    
+</body>
+</html>
