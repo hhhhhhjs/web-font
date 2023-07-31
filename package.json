@@ -3,6 +3,7 @@
   "name": "first-bao",
   "version": "1.0.0",
   "description": "我的package",
+  "type" : "module",
   "main": "main.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
