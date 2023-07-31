@@ -1,6 +1,6 @@
  
 {
-  "name": "package",
+  "name": "first-bao",
   "version": "1.0.0",
   "description": "我的package",
   "main": "main.mjs",
